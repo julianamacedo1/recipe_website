@@ -20,7 +20,9 @@ body {
 @media screen and (min-width: 600px) {
   .header {
     color: #E5C1BD;
+    text-align: center;
   }
+  
 }
 
 /*for EXTRA large screens*/
