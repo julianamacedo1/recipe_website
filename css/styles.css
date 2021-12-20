@@ -22,7 +22,9 @@ body {
     color: #E5C1BD;
     text-align: center;
   }
-  
+  .logo1 {
+    width: 20%;
+  }
 }
 
 /*for EXTRA large screens*/
