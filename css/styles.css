@@ -69,6 +69,12 @@ header {
       font-size: 18px;
     }
   }
+  .nav-lines {
+    font-size: 30px;
+    cursor: pointer;
+    float: left;
+    padding-left: 20px;
+  }
 }
 
 /*for EXTRA large screens*/
