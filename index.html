@@ -13,14 +13,28 @@
     </header>
 
     <div id="sideNav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
       <a href="#">Home</a>
       <a href="#">Recipes</a>
       <a href="#">Recipe Shuffle</a>
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776;</span
+    >
 
     <p>(featured recipes)</p>
+
+    <script>
+      function openNav() {
+        document.getElementById("sideNav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("sideNav").style.width = "0";
+      }
+    </script>
   </body>
 </html>
