@@ -38,7 +38,7 @@ header {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    font-family: ;
+    font-family: 'Kreon', serif;
   }
 
   .sidenav a {
@@ -48,6 +48,7 @@ header {
     color: #fcffef;
     display: block;
     transition: 0.3s;
+    font-family: 'Kreon', serif;
   }
 
   .sidenav a:hover {
