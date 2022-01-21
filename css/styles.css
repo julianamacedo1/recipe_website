@@ -16,6 +16,10 @@ header {
     border: 1px solid #000000;
     margin-bottom: 12px;
 }
+#recipeList {
+    list-style-type: none;
+    padding: 0;
+}
 
 /*responsive sizing*/
 /*for small screens*/
