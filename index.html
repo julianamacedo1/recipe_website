@@ -28,6 +28,18 @@
       <a href="#">Recipe Shuffler</a>
     </div>
 
+    <input
+      type="text"
+      id="userInput"
+      onkeyup="userSearch()"
+      placeholder="recipes..."
+    />
+
+    <ul id="recipeList">
+      <li><a href="recipes/spinach-dip.html">Spinach Dip</a></li>
+      <li><a href="recipes/spinach-dip.html">other thing</a></li>
+    </ul>
+
     <p>(featured recipes)</p>
 
     <script>
@@ -37,6 +49,22 @@
 
       function closeNav() {
         document.getElementById("sideNav").style.width = "0";
+      }
+      function userSearch() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("userInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("recipeList");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
       }
     </script>
   </body>
