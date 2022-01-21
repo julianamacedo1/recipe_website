@@ -41,6 +41,13 @@
     </ul>
 
     <script>
+      function openNav() {
+        document.getElementById("sideNav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("sideNav").style.width = "0";
+      }
       function userSearch() {
         var input, filter, ul, li, a, i, txtValue;
         input = document.getElementById("userInput");
