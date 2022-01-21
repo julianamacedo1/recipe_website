@@ -22,7 +22,11 @@ header {
     margin: 0;
 }
 #recipeList li a {
-    
+    border: 1px solid #000000;
+    margin-top: -1px;
+    background-color: #e5c1bd;
+    padding: 12px;
+    text-decoration: ;
 }
 
 /*responsive sizing*/
