@@ -19,6 +19,10 @@ header {
 #recipeList {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+#recipeList li a {
+    
 }
 
 /*responsive sizing*/
