@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="icon" href="img/ngf-logo2.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kreon&family=Mukta+Vaani:wght@300;400&family=Neuton:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nice Good Food</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-lines" onclick="openNav()">&#9776;</div>
+      <img src="img/ngf-logo1.png" alt="nice good food logo" class="logo1" />
+    </header>
+
+    <div id="sideNav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">Home</a>
+      <a href="all-recipes.html">Recipes</a>
+      <a href="#">Recipe Shuffler</a>
+    </div>
+
+    <input
+      type="text"
+      id="userInput"
+      onkeyup="userSearch()"
+      placeholder="recipes..."
+    />
+
+    <ul id="recipeList">
+      <li><a href="recipes/spinach-dip.html">Spinach Dip</a></li>
+      <li><a href="recipes/spinach-dip.html">other thing</a></li>
+    </ul>
+
+    <script>
+      function userSearch() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("userInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("recipeList");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
