@@ -26,7 +26,10 @@ header {
     margin-top: -1px;
     background-color: #e5c1bd;
     padding: 12px;
-    text-decoration: ;
+    text-decoration: none;
+    font-size: 16px;
+    color: #60747e;
+    display: block;
 }
 
 /*responsive sizing*/
