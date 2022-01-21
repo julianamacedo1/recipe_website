@@ -32,7 +32,7 @@ header {
     display: block;
 }
 #recipeList li a:hover:not(.header) {
-    
+    background-color: #;
 }
 
 /*responsive sizing*/
