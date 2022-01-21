@@ -31,6 +31,9 @@ header {
     color: #60747e;
     display: block;
 }
+#recipeList li a:hover:not(.header) {
+    
+}
 
 /*responsive sizing*/
 /*for small screens*/
