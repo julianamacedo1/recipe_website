@@ -39,7 +39,7 @@ header {
   width: 90%;
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 50px;
+  grid-gap: 50px 50px;
 }
 
 .recipe-img {
