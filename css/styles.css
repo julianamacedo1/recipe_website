@@ -38,7 +38,7 @@ header {
 .recipe-container {
   width: 95%;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 25px;
 }
 .recipe-img {
