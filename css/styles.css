@@ -42,6 +42,9 @@ header {
 .recipe-item {
   width: 25%;
 }
+.recipe-img {
+  width: 25%;
+}
 
 /*responsive sizing*/
 /*for small screens*/
