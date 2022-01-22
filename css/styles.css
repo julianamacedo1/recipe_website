@@ -36,8 +36,11 @@ header {
   grid-template-columns: auto auto auto;
   grid-gap: 45px;
 }
+.recipe-item {
+  text-align: center;
+}
 .recipe-img {
-  width:75%;
+  width: 75%;
 }
 
 /*responsive sizing*/
