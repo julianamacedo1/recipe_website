@@ -19,7 +19,6 @@ header {
   list-style-type: none;
   margin: 10px;
   justify-content: center;
-  height: 60px;
 }
 #recipeList li a {
   border: 1px solid #000000;
