@@ -19,14 +19,13 @@ header {
   list-style-type: none;
 }
 #recipeList li a {
-  border: 1px solid #000000;
-  margin-top: -1px;
   background-color: #e5c1bd;
   padding: 12px;
   text-decoration: none;
   font-size: 16px;
   color: #60747e;
   display: block;
+  height: 300px;
 }
 #recipeList li a:hover:not(.header) {
   background-color: #000;
