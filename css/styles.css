@@ -39,7 +39,7 @@ header {
   width: 90%;
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .recipe-img {
