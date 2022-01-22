@@ -35,7 +35,7 @@ header {
 /*recipe items on all recipe page*/
 .recipe-container {
   width: 95%;
-  display: grid;
+  display: inline-grid;
   grid-template-columns: auto auto auto;
   grid-gap: 40px;
 }
