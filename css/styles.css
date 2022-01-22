@@ -19,6 +19,7 @@ header {
   list-style-type: none;
   margin: 10px;
   justify-content: center;
+  height: 60px;
 }
 #recipeList li a {
   border: 1px solid #000000;
@@ -39,9 +40,6 @@ header {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 25px;
-}
-.recipe-item {
-    height: 60px;
 }
 .recipe-img {
   width: 25%;
