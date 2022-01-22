@@ -36,8 +36,10 @@ header {
 }
 /*recipe items on all recipe page*/
 .recipe-container {
+  width: 90%;
   display: grid;
   grid-template-columns: auto auto;
+  justify-content: space-evenly;
 }
 
 .recipe-img {
