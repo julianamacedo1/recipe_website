@@ -35,6 +35,9 @@ header {
   background-color: #000;
 }
 /*recipe items on all recipe page*/
+.recipe-container {
+    display: grid;
+}
 .recipe-item {
   width: 25%;
 }
