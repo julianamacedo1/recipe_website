@@ -32,7 +32,7 @@ header {
 }
 /*recipe items on all recipe page*/
 .recipe-container {
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 45px;
