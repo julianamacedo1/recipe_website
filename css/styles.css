@@ -38,10 +38,9 @@ header {
 .recipe-container {
   display: grid;
   grid-template-columns: auto auto;
+  align-content: space-around;
 }
-.recipe-item {
-  width: 25%;
-}
+
 .recipe-img {
   width: 25%;
 }
