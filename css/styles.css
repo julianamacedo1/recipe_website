@@ -6,6 +6,9 @@ h1 {
   color: #5f747f;
   padding-left: 30px;
 }
+h2 {
+    font-family: "Kreon", sans-serif;
+}
 body {
   background-color: #fcffef;
   margin: 0px;
