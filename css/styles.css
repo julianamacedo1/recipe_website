@@ -37,7 +37,7 @@ header {
   padding: 12px;
   text-decoration: none;
   font-size: 16px;
-  color: #60747e;
+  color: #435962;
   display: block;
   height: 300px;
   position: sticky;
@@ -82,7 +82,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #60747e;
+    background-color: #435962;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
