@@ -1,6 +1,9 @@
 /* imports normalize */
 @import "normalize.css";
 /*universal styles*/
+h1 {
+    
+}
 body {
   background-color: #fcffef;
   margin: 0px;
