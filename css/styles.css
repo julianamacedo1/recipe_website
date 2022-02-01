@@ -57,7 +57,7 @@ header {
   float: left;
   width: 30%;
   padding-bottom: 30%;
-  position: sticky;
+  position: relative;
   top: 0;
 }
 #recipeList li a:hover:not(.header) {
