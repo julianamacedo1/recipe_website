@@ -51,12 +51,11 @@ header {
 }
 #recipeList li a {
   background-color: #e5c1bd;
-  padding: 12px;
   text-decoration: none;
   font-size: 16px;
   color: #435962;
-  display: block;
-  width: 30;
+  float: left;
+  width: 30%;
   padding-bottom: 30%;
   position: sticky;
   top: 0;
