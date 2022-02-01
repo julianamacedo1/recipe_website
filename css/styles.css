@@ -56,8 +56,8 @@ header {
   font-size: 16px;
   color: #435962;
   display: block;
-  height: 300px;
-  width: 300px;
+  width: 30%;
+  padding-bottom: 30%;
   position: sticky;
   top: 0;
 }
