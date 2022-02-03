@@ -62,7 +62,6 @@ header {
   margin-right: auto;
   display: block;
   overflow: hidden;
-  vertical-align: top;
 }
 #recipeList li a:hover:not(.header) {
   background-color: #000;
