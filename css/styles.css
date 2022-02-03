@@ -73,7 +73,8 @@ header {
   grid-gap: 40px;
 }
 .recipe-img {
-  width: 75%;
+  width: 80%;
+  text-align: center;
 }
 
 /*responsive sizing*/
