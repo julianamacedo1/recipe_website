@@ -61,6 +61,8 @@ header {
   height: 70%;
   padding-bottom: 30%;
   overflow: hidden;
+  display: inline-block;
+  
 }
 #recipeList li a:hover:not(.header) {
   background-color: #000;
