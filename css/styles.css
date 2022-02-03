@@ -47,10 +47,7 @@ header {
   margin-bottom: 12px;
 }
 /*recipe items on all recipe page*/
-ul {
-    margin: 0 auto;
-    text-align: center;
-}
+
 #recipeList {
   list-style-type: none;
 }
