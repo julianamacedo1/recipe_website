@@ -48,7 +48,8 @@ header {
 }
 /*recipe items on all recipe page*/
 ul {
-    margin: 
+    margin: 0 auto;
+    text-align: center;
 }
 #recipeList {
   list-style-type: none;
