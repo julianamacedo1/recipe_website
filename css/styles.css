@@ -47,7 +47,9 @@ header {
   margin-bottom: 12px;
 }
 /*recipe items on all recipe page*/
-
+ul {
+    columns: 3;
+}
 #recipeList {
   list-style-type: none;
 }
