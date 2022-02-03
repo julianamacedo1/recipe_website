@@ -66,9 +66,9 @@ header {
 }
 .recipe-container {
   width: 100%;
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 40px;
+  grid-gap: 20px;
 }
 .recipe-img {
   width: 75%;
