@@ -66,6 +66,12 @@ header {
 #recipeList li a:hover:not(.header) {
   background-color: #000;
 }
+.recipe-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+}
 .recipe-img {
   width: 80%;
   margin-top: auto;
