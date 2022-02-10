@@ -56,7 +56,6 @@ header {
 #recipeList li a {
   background-color: #e5c1bd;
   text-decoration: none;
-  font-size: 20px;
   color: #435962;
   width: 100%;
   height: 400px;
@@ -64,7 +63,6 @@ header {
   margin-right: auto;
   display: block;
   overflow: hidden;
-  font-family: "Neuton", sans-serif;
 }
 #recipeList li a:hover:not(.header) {
   background-color: #000;
