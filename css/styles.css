@@ -64,6 +64,7 @@ header {
   margin-right: auto;
   display: block;
   overflow: hidden;
+  font-family: "Neuton", sans-serif;
 }
 #recipeList li a:hover:not(.header) {
   background-color: #000;
