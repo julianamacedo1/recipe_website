@@ -63,8 +63,6 @@ header {
   margin-right: auto;
   display: block;
   overflow: hidden;
-}
-#recipeList a {
   font-family: "Neuton", sans-serif;
   font-size: 20px;
 }
