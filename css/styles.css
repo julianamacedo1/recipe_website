@@ -62,10 +62,6 @@ header {
   margin-right: auto;
   display: block;
   overflow: hidden;
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 40px;
 }
 #recipeList li a:hover:not(.header) {
   background-color: #000;
