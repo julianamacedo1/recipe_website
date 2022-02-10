@@ -50,6 +50,7 @@ header {
 
 #recipeList {
   list-style-type: none;
+  margin-left: -16px;
 }
 #recipeList li a {
   background-color: #e5c1bd;
