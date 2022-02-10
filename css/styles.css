@@ -72,7 +72,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 90%;
+  width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
