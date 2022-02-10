@@ -70,7 +70,7 @@ header {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 30px;
 }
 .recipe-img {
   width: 80%;
