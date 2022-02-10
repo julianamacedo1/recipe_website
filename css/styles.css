@@ -57,6 +57,9 @@ header {
   color: #fcffef;
   font-family: "Biryani", sans-serif;;
 }
+i {
+  color: #435962;
+}
 /*recipe items on all recipe page*/
 #recipeList {
   list-style-type: none;
