@@ -78,9 +78,9 @@ i {
   grid-gap: 20px;
 }
 .recipe-img {
-  width: 80%;
+  width: 85%;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   display: block;
