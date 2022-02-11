@@ -38,8 +38,8 @@ header {
   background-color:#435962;
 }
 .input {
-  color: #fcffef;
-  font-family: "Biryani", sans-serif;;
+  font-family: "Biryani", sans-serif;
+  color: #B6BE9C;
 }
 i {
   color: #435962;
@@ -47,7 +47,6 @@ i {
 ::placeholder {
   font-family: "Biryani", sans-serif;
   color: #B6BE9C;
-  padding-left: 40px;
 }
 /*recipe items on all recipe page*/
 #recipeList {
