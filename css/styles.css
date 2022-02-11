@@ -45,8 +45,9 @@ i {
   color: #435962;
 }
 ::placeholder {
-  color: blue;
-  font-size: 1.5em;
+  font-family: "Biryani", sans-serif;
+  color: #fcffef;
+  padding-left: 40px;
 }
 /*recipe items on all recipe page*/
 #recipeList {
