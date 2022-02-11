@@ -5,16 +5,19 @@ h1 {
   font-family: "Neuton", sans-serif;
   color: #435962;
   padding-left: 40px;
+  text-align: center;
 }
 h2 {
   font-family: "Kreon", sans-serif;
   color: #435962;
   padding-left: 40px;
+  text-align: center;
 }
 p {
   font-family: "Biryani", sans-serif;
   color: #435962;
   padding-left: 40px;
+  text-align: center;
 }
 body {
   background-color: #fcffef;
