@@ -62,7 +62,7 @@ i {
   display: block;
   overflow: hidden;
   font-family: "Neuton", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 #recipeList li a:hover:not(.header) {
