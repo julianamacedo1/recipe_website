@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="icon" href="../img/nice-good-food-logo2.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kreon&family=Mukta+Vaani:wght@300;400&family=Neuton:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nice Good Food</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-lines" onclick="openNav()">&#9776;</div>
+      <img
+        src="../img/nice-good-food-logo1.png"
+        alt="nice good food logo"
+        class="logo1"
+      />
+    </header>
+
+    <div id="sideNav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="../index.html">Home</a>
+      <a href="../all-recipes.html">Recipes</a>
+      <a href="#">Recipe Shuffler</a>
+    </div>
+
+    <h1>Spinach Dip</h1>
+    <p>(short description)</p>
+    <p>(pictures)</p>
+    <h2>Ingredients</h2>
+    <p>
+      20 ounces frozen spinach<br />
+      8 ounces cream cheese<br />
+      1/4 cup plain greek yogurt<br />
+      1/4 cup mayo<br />
+      1/4 cup parmesan cheese<br />
+      1 teaspoon red pepper flakes<br />
+      1/4 teaspoon salt<br />
+      1/4 teaspoon pepper<br />
+      1 teaspoon garlic powder<br />
+      1 teaspoon onion powder<br />
+      1 tablespoon parmesan cheese<br />
+      1 tablespoon seasoned breadcrumbs<br />
+    </p>
+    <h2>Steps</h2>
+    <p>(recipe steps)</p>
+
+    <script>
+      function openNav() {
+        document.getElementById("sideNav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("sideNav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
